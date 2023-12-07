@@ -1,6 +1,9 @@
 {
   "id": "test-competition-20231207",
   "name": "Test Competition 2023-12-07",
-  "robots": [{"id": "tasujad", "name": "Tasujad"}],
+  "robots": [
+    {"id": "tasujad", "name": "Tasujad"},
+    {"id": "delta-y", "name": "Delta Y"}
+  ],
   "tournament": null
 }
