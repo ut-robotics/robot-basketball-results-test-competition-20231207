@@ -4,7 +4,8 @@
   "robots": [
     {"id": "tasujad", "name": "Tasujad"},
     {"id": "delta-y", "name": "Delta Y"},
-    {"id": "team-electronics", "name": "Team Electronics"}
+    {"id": "team-electronics", "name": "Team Electronics"},
+    {"id": "hi-bot", "name": "Hi...Bot"}
   ],
   "tournament": null
 }
