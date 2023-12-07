@@ -1,0 +1,34 @@
+{
+  "id": 3,
+  "robots": [
+    {"id": "ois3", "name": "Õis 3"},
+    {"id": "tasujad", "name": "Tasujad"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.13, -1.1],
+    [-0.13, 1.1],
+    [1.3, -0.75],
+    [-1.3, 0.75],
+    [1.27, -1.24],
+    [-1.27, 1.24],
+    [-2.16, 1.18],
+    [2.16, -1.18],
+    [-0.84, -1.28],
+    [0.84, 1.28]
+  ]
+}

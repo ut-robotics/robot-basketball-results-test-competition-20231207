@@ -22,13 +22,13 @@
       {"id": "team-electronics", "name": "Team Electronics"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2],
-    "byes": [{"robotID": "tasujad"}],
+    "gameIDs": [1, 2, 3, 4],
+    "byes": [{"robotID": "tasujad"}, {"robotID": "team-electronics"}],
     "robotStartingBaskets": {
-      "ois3": ["blue"],
-      "delta-y": ["magenta"],
-      "hi-bot": ["magenta"],
-      "tasujad": [],
+      "ois3": ["blue", "magenta"],
+      "delta-y": ["magenta", "magenta"],
+      "hi-bot": ["magenta", "blue"],
+      "tasujad": ["blue"],
       "team-electronics": ["blue"]
     },
     "hasEnded": false
