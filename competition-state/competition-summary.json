@@ -8,5 +8,131 @@
     {"id": "hi-bot", "name": "Hi...Bot"},
     {"id": "ois3", "name": "Õis 3"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": false
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "ois3", "name": "Õis 3"},
+      {"id": "delta-y", "name": "Delta Y"},
+      {"id": "hi-bot", "name": "Hi...Bot"},
+      {"id": "tasujad", "name": "Tasujad"},
+      {"id": "team-electronics", "name": "Team Electronics"}
+    ],
+    "roundCount": 3,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "ois3", "name": "Õis 3"},
+          {"id": "delta-y", "name": "Delta Y"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.71, -1.29],
+          [0.71, 1.29],
+          [0.91, -0.89],
+          [-0.91, 0.89],
+          [-1.73, -0.81],
+          [1.73, 0.81],
+          [-0.53, 0.67],
+          [0.53, -0.67],
+          [1.31, -0.79],
+          [-1.31, 0.79]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "hi-bot", "name": "Hi...Bot"},
+          {"id": "team-electronics", "name": "Team Electronics"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-2.01, 0.52],
+          [2.01, -0.52],
+          [-0.21, -0.91],
+          [0.21, 0.91],
+          [1.12, -0.8],
+          [-1.12, 0.8],
+          [-0.81, -0.82],
+          [0.81, 0.82],
+          [0.78, 1.25],
+          [-0.78, -1.25]
+        ]
+      }
+    ],
+    "byes": [{"robotID": "tasujad"}],
+    "robotScores": [
+      {
+        "robot": {"id": "ois3", "name": "Õis 3"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "delta-y", "name": "Delta Y"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "hi-bot", "name": "Hi...Bot"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "team-electronics", "name": "Team Electronics"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "tasujad", "name": "Tasujad"},
+        "score": 1,
+        "tieBreakScore": 0
+      }
+    ],
+    "robotStartingBaskets": {
+      "ois3": ["blue"],
+      "delta-y": ["magenta"],
+      "hi-bot": ["magenta"],
+      "tasujad": [],
+      "team-electronics": ["blue"]
+    },
+    "hasEnded": false
+  }
 }
